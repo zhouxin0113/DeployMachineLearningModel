@@ -1,5 +1,5 @@
 # train and run the model with RESTful api
-FROM nitincypher/docker-ubuntu-python-pip
+FROM zx_kylin:latest
 
 COPY ./requirements.txt /app/requirements.txt
 
